@@ -1,0 +1,15 @@
+name: First Workflow
+
+on: push #this is an event, whenever you push to repo invoke 
+
+jobs: 
+  build: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a sample GitHub action
+      - run: echo "this workflow runs successfully for this particular action"
+      
+    
