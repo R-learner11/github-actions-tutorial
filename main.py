@@ -1,13 +1,13 @@
 print("Hello World");
 
-a = 5
-
-  b = 6
-
-sum = a+b
+def add(a,b):
+  sum = a+b;
+return sum
 
 
 
 
-
-  print(sum)
+a = 10
+b =5
+sum1 = add(a,b)
+    print(sum1)
